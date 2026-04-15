@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Course</title>
+    <link rel="stylesheet" href="cssProject/normalize.css" />
+    <link rel="stylesheet" href="cssProject/addcourses.css" />
+    <!-- FOnts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <header>
+      <h1>Course Organizer</h1>
+    </header>
+    <!-- nav -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="mycourses.html">My Courses</a>
+      <a href="addcourse.html">Add Course</a>
+      <a href="contacts.html">Contact Us</a>
+    </nav>
+    <div class="container">
+      <div class="total">
+        <h1>Add New Course</h1>
+        <form action="">
+          <div class="course">
+            <label class="course">Course Name</label><br />
+            <input
+              type="text"
+              minlength="7"
+              maxlength="30"
+              required
+              class="in"
+              autofocus
+            /><br />
+          </div>
+          <br />
+          <div class="inst">
+            <label>Instructor</label>
+            <input
+              type="text"
+              minlength="6"
+              maxlength="20"
+              required
+              class="in"
+            />
+          </div>
+          <br />
+
+          <div class="credit">
+            <label>Credit Hours</label><br />
+            <input type="number" min="1" max="6" required class="in" /> <br />
+          </div>
+          <div class="button">
+            <input type="reset" value="Clear" class="re" />
+            <input type="submit" value="Add Course" class="sb" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Made for project</p>
+      <p>By MrPearce</p>
+    </footer>
+  </body>
+</html>

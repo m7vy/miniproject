@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+}
+body {
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background-color: #f7f7fb;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: #6d28d9;
+  color: white;
+  padding: 15px 30px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  text-align: center;
+
+  color: rgb(249, 246, 241);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6d28d9;
+  padding: 10px 5%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #d8b4fe;
+}
+
+div {
+  max-width: 70%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+section.welcome {
+  max-width: 70%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  transition: 0.6s;
+  text-align: center;
+}
+section.welcome:hover {
+  transform: translateY(-10px);
+}
+section.welcome h2 {
+  color: rgb(16, 2, 142);
+}
+
+section.welcome p {
+  color: rgb(3, 59, 92);
+
+  font-weight: bolder;
+}
+section.welcome a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #0588e5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 1s;
+}
+section.welcome a:hover {
+  transform: translateY(-3px);
+  background-color: #035c9a;
+}
+
+.features {
+  background-color: #ffffff;
+  max-width: 70%;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  transition: 1s;
+}
+.features:hover {
+  transform: translateY(-10px);
+}
+
+.features h2 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: #f4f4f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+.card h3 {
+  color: #22023e;
+}
+.card p {
+  color: #a892bb;
+  font-weight: bolder;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background-color: #1e293b;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  max-width: 100%;
+  padding: 1px;
+  margin-top: auto;
+}
